@@ -59,7 +59,13 @@ h1,h2,h3,h4,h5,h6 {
 /* Card */
 .card {
     border-radius: 0;
-    border-color: transparent;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(32,33,36,0.05), 0 19px 38px 0 rgba(32,33,36,0.04);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(32,33,36,0.05), 0 19px 38px 0 rgba(32,33,36,0.04);
+}
+a.card:hover {
+    box-shadow: 0 2px 16px 0 rgba(32,33,36,0.07), 0 26px 38px 0 rgba(32,33,36,0.09);
+    -webkit-box-shadow: 0 2px 16px 0 rgba(32,33,36,0.07), 0 26px 38px 0 rgba(32,33,36,0.09);
 }
 .card .card-footer {
     background: transparent;
@@ -67,6 +73,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 .card .card-img-top {
     border-radius: 0;
+}
+.card figure {
+    margin: 0;
 }
 /* Form Control */
 .form-control {
