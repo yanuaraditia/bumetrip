@@ -55,8 +55,20 @@ h1,h2,h3,h4,h5,h6 {
 :not(.btn) .material-icons {
     vertical-align: middle;
 }
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100rem;
+    }
+}
 .section {
     padding: 3rem 1.5rem;
+}
+/* Header */
+header .navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 /* Card */
 .card {
@@ -73,6 +85,9 @@ a.card:hover {
 .card .card-footer {
     background: transparent;
     border-color: var(--darkonah);
+}
+.card .card-text {
+    opacity: .75;
 }
 .card .card-img-top {
     border-radius: 0;
