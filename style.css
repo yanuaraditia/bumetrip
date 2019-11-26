@@ -1,0 +1,144 @@
+:root {
+    --black:#000;
+    --gold:#ffa000;
+    --darkonah:#d0d0d0;
+}
+@font-face {
+    font-family: 'Google Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/googlematerialicons/v18/Gw6kwdfw6UnXLJCcmafZyFRXb3BL9rvi0QZG3Q.woff2)format('woff2');
+}
+
+html,body {
+    font-family: "Raleway",sans-serif;
+}
+
+.material-icons {
+    font-family: 'Google Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+:not(.btn) .material-icons {
+    vertical-align: middle;
+}
+.section {
+    padding: 3rem 1.5rem;
+}
+/* Card */
+.card {
+    border-radius: 0;
+    border-color: transparent;
+}
+.card .card-footer {
+    background: transparent;
+    border-color: var(--darkonah);
+}
+.card .card-img-top {
+    border-radius: 0;
+}
+/* Form Control */
+.form-control {
+    line-height: 3;
+    height: 70px !important;
+    padding: 0 1.85rem;
+    border-radius: 0;
+    border-color: transparent;
+}
+/* Button */
+.btn {
+    height: 70px !important;
+    padding: 0 2rem;
+    border-radius: 0;
+    border-color: transparent;
+}
+/*-- Section All --*/
+/* Front-Banner */
+.front-banner {
+    background-image: url('assets/front-banner.jpg');
+    background-size: cover;
+    color: #fff;
+}
+.front-banner .select-wrap {
+    position: relative;
+}
+.front-banner .fields {
+    background: #fff;
+}
+.front-banner .select-wrap .form-control {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.front-banner .select-wrap::before {
+    background: var(--darkonah);
+    width: 1px;
+    height: calc(100% - 20px);
+    bottom: 10px;
+    content: "";
+    position: absolute;
+    left: 0;
+}
+.front-banner .select-wrap .icon {
+    pointer-events: none;
+    position: absolute;
+    right: 10px;
+    color: #000;
+    background: #fff;
+    height: 24px;
+    top: calc(50% - 12px);
+}
+.front-banner .browse span:not(:last-child) {
+    margin-right: 3px;
+}
+.front-banner .browse span a {
+    border-radius: 100px;
+    border:2px solid #fff;
+    display: block;
+    color: #fff;
+    padding: .525rem 1rem;
+}
+.front-banner .browse span a:hover {
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Destination */
+.dest .card {
+    text-decoration: none;
+    color: #000;
+}
+.dest .card .dest-head {
+    display: flex;
+}
+.dest .card .dest-head h5 {
+    width: 70%;
+    float: left;
+}
+.dest .card .dest-head .price {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+.dest .card figure {
+    position: relative;
+}
+.dest .card figure .rate {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    background: #fff;
+    padding: .3rem 1rem;
+    border-radius: 100px;
+    color: var(--gold);
+}
