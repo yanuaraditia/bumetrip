@@ -67,6 +67,25 @@ header .navbar {
     left: 0;
     right: 0;
     top: 0;
+    padding: 2rem 1rem;
+    z-index: 999;
+    transition: padding .2s ease-in-out;
+}
+header .navbar.navbar-light {
+    padding: .75rem 1rem;
+    background: rgba(255,255,255,0.7);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+header .navbar .navbar-nav .nav-link {
+    transition: color .15s ease-in-out;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+@media screen and (min-width:992px) {
+    header .navbar:not(.navbar-light) .navbar-nav .nav-link {
+        color: #fff;
+    }
 }
 /* Card */
 .card {
@@ -86,6 +105,8 @@ a.card:hover {
 }
 .card .card-text {
     opacity: .75;
+    height: 3rem;
+    overflow: hidden;
 }
 .card .card-img-top {
     border-radius: 0;
