@@ -14,19 +14,17 @@
 }
 @font-face {
     font-family: 'Circular Std Book';
-    src: url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Book.eot');
-    src: url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
-      	url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Book.woff') format('woff'),
-      	url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Book.ttf') format('truetype');
+    src: url('assets/font/CircularStd-Book.eot') format('embedded-opentype'),
+      	url('assets/font/CircularStd-Book.woff') format('woff'),
+      	url('assets/font/CircularStd-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Circular Std';
-    src: url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Bold.eot');
-    src: url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
-      	url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Bold.woff') format('woff'),
-      	url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Bold.ttf') format('truetype');
+    src: url('assets/font/CircularStd-Bold.eot') format('embedded-opentype'),
+      	url('assets/font/CircularStd-Bold.woff') format('woff'),
+      	url('assets/font/CircularStd-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
