@@ -1,0 +1,12 @@
+@media screen and (min-width:992px) {
+    .header .navbar-brand {
+        width: 120px;
+    }
+    .header .navbar-brand svg {
+        color: #f47f69;
+        width: 120px;
+    }
+}
+@media screen and (max-width:991px) {
+
+}
