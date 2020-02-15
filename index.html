@@ -18,7 +18,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <form class="search-form form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Cari tempat wisata" aria-label="Search">
                 <button class="btn my-2 my-sm-0" type="submit"><i data-feather="search"></i></button>
             </form>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -245,14 +245,21 @@
       });
       function padtop() {
         var padtop = $('.top-head').height();
-        $('body').css('--padtop','calc(' + padtop + 'px + 3rem)');
+        $('body').css('--padtop',padtop + 'px');
       }
       $(window).resize(function() {
         padtop();
       });
       feather.replace();
       function love(id) {
-        Swal.fire('Berhasil difavoritkan');
+        Swal.fire({
+          icon: 'success',
+          title: 'Berhasil',
+          text: "Ditambahkan ke favorit",
+          showConfirmButton:false,
+          timer:1000
+        }
+        );
         $('#'+id).removeClass('active');
       }
     </script>

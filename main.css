@@ -263,7 +263,7 @@ html, body {
         padding: 0 3.5rem;
     }
     .main-wrapper {
-        margin-top: var(--padtop);
+        margin-top: calc(var(--padtop) + 3rem);
         padding: 0 3rem;
     }
     .data-trip .card {
@@ -276,12 +276,12 @@ html, body {
         max-height: 150px;
         overflow: hidden;
     }
-    .pagination .page-item:last-child .page-link,  .pagination .page-item.active .page-link {
-        color: #fff;
-        background: var(--primary);
-    }
     .pagination .page-item:not(.active) .page-link {
         color: var(--primary-dark);
+    }
+    .pagination .page-item:last-child .page-link, .pagination .page-item.active .page-link {
+        color: #fff!important;
+        background: var(--primary);
     }
 }
 @media screen and (max-width:991px) {
@@ -292,8 +292,7 @@ html, body {
         margin-bottom: 1rem;
     }
     .data-trip .ads {
-        color: var(--primary-dark);
-        background-blend-mode: luminosity;
+        height: 400px;
     }
     .header .navbar-brand {
         display: none;
@@ -301,7 +300,7 @@ html, body {
     .header .search-form {
         position: absolute;
         background: #fff;
-        top: .5rem;
+        top: .4rem;
         right: 1rem;
         left: 1rem;
     }
@@ -311,7 +310,7 @@ html, body {
     }
     .header .navbar-toggler {
         z-index: 999;
-        transform: translateY(12px);
+        transform: translateY(11px);
         border: none;
         box-shadow: none!important;
         outline: none!important;
@@ -331,7 +330,9 @@ html, body {
         box-shadow: 0 -4px 12px -4px rgba(0,0,0,.1);    
     }
     .main-wrapper {
+        margin-top: calc(var(--padtop) + 1rem);
         margin-bottom: 5rem;
+        background: #f8f7fa;
     }
     .pagination .page-link {
         position: relative;
