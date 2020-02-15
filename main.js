@@ -68,6 +68,9 @@ var data = new Vue({
                 lokasi: "Pejagoan, Kebumen",
                 cat: "Budaya",
                 gambar: "assets/sample5.jpg"
+            },
+            {
+                ads:true
             }
         ]
     }
