@@ -70,7 +70,9 @@ var data = new Vue({
                 gambar: "assets/sample5.jpg"
             },
             {
-                ads:true
+                ads:true,
+                title:"Males pergi sendiri??",
+                content:"Biarkan mereka ikutan sekarang juga"
             }
         ]
     }
@@ -113,7 +115,7 @@ var mainMenu = new Vue({
             },
             {
                 link: 'login.html',
-                title: 'Login'
+                title: 'Masuk'
             }
         ]
     }

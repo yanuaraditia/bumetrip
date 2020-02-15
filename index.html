@@ -36,9 +36,6 @@
                 <li class="nav-item" v-else>
                   <a class="nav-link" :href="nav.link">{{nav.title}}</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true">Masuk</a>
-                </li>
               </ul>
             </div>
         </nav>
@@ -80,8 +77,8 @@
             </div>
             <div class="col-12 col-lg-3" v-else>
               <div class="card ads">
-                <h6>Males pergi sendiri??</h6>
-                <p>Biarkan mereka ikutan sekarang juga</p>
+                <h6>{{trip.title}}</h6>
+                <p>{{trip.content}}</p>
                 <button class="btn btn-primary">Bagikan</button>
               </div>
             </div>
